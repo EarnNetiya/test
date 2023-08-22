@@ -1,7 +1,7 @@
 function capToFront(str){
     let lower = []
     let upper = []
-    let result = upper.concat(lower)
+    let result = upper.concat(lower).join('')
     let arr = str.split('')
     for (let i = 0; i < arr.legth; i++){
         if(arr[i] === arr[i].toUpperCase()){
@@ -10,7 +10,7 @@ function capToFront(str){
             lower.push(arr[i])
         }
     }
-    return result.join('')
+    return result
 }
 console.log(capToFront("hApPy"))
 console.log(capToFront("moveMENT"))

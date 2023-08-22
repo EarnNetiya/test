@@ -1,4 +1,4 @@
-function canMove(piece, current, target) {
+function canMove() {
     
 }
 
