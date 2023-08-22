@@ -8,9 +8,6 @@ function LongestValidParenthese(s){
     return count
 }
 
-
-
-
 console.log(LongestValidParenthese("(()")) // 2
 console.log(LongestValidParenthese(")()())")) // 4
 console.log(LongestValidParenthese("()))))(()())(")) // 6
