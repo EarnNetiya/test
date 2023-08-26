@@ -1,6 +1,7 @@
-function secertWord(str, n){
-
+function secertWord(str, num){
+    
 }
+
 
 
 console.log(secertWord("sadbpstcrdvaefikkgoenqrt", 5)) // brake

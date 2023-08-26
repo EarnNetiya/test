@@ -1,5 +1,6 @@
 function bomb(x, y, z) {
     
+
 }
 
 
